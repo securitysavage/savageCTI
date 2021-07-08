@@ -1,8 +1,9 @@
 #!/usr/bin/env/python3
 
-# Modified from https://github.com/jpiechowka/shodan-parser/blob/master/shodan-parser.py
+# This script will parse JSON data exported from Shodan and create an IP:PORT:ORG:HOSTNAME formatted list to be used
+# with other tools. To run, specify path to a JSON API export.
 #
-# MIT License
+# Modified from https://github.com/jpiechowka/shodan-parser/blob/master/shodan-parser.py
 #
 # Modified by @securitysavage
 
@@ -22,9 +23,6 @@ import click
 @click.option('-n', '--log-every', show_default=True, default=100,
               help='Show log after specified number of entries parsed. Effective only in verbose mode')
 def cli(shodan_json_file, output, verbose, log_every):
-    """This script will parse JSON data exported from SHODAN and create IP:PORT: formatted list to be used
-        with other tools. To run specify path to a file with JSON data from SHODAN."""
-
     if not os.path.exists(shodan_json_file):
         print('\nError: Provided input file does not exist')
         exit(1)
