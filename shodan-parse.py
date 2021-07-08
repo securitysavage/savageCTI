@@ -1,6 +1,7 @@
 #!/usr/bin/env/python3
 
 # Modified from https://github.com/jpiechowka/shodan-parser/blob/master/shodan-parser.py
+#
 # MIT License
 #
 # Modified by @securitysavage
