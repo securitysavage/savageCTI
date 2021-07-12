@@ -13,6 +13,6 @@
 
 ## Notes
 
-You must sign up for a Shodan account to get an API key.
+You must sign up for a Shodan user account to get an API key.
 
 Twitter: [@securitysavage](https://twitter.com/securitysavage)
