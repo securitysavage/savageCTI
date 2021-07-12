@@ -6,7 +6,7 @@
 
 ## Instructions
 
-1. Place your IP list (one per line) in your savageCTI directory.
+1. Place your IP list (one address per line) in your savageCTI directory.
 2. Run ```python3 shodan-ip-download.py iplist.txt filename.json.gz``` and wait for the API to process the list.
 3. Run ```gunzip filename.json.gz``` to decompress the generated archive.
 4. Run ```python3 shodan-parse.py -o outputname.txt -v filename.json``` to produce the list ```outputname.txt``` in the format IP:PORT:ORG:HOSTNAMES (see output example file).
