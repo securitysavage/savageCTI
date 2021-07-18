@@ -23,7 +23,7 @@ Usage:
 
 ```root@container:/storage# python3 /scripts/shodan-ip-download.py foo.txt bar.json.gz```, with ```foo.txt``` being an IP list from your local machine, such as a SIEM export.
 
-```gunzip bar.json.gz```
+```root@container:/storage# gunzip bar.json.gz```
 
 ```root@container:/storage# python3 /scripts/shodan-parse.py -o foobar.txt -v bar.json```, to produce list ```foobar.txt``` of format ```IP:PORT:ORG:HOSTNAMES``` (see output example file).
 
