@@ -16,7 +16,7 @@
 
 1. Edit the Dockerfile and add your Shodan/Greynoise API keys to it.
 2. Run ```$ docker build -t <YOUR TAG HERE> .``` and Docker will provision your container.
-3. Create a local directory, for example ```$ mkdir /home/<YOUR USERNAME>/sharedir``` for sharing files such as IP lists with savageCTI.
+3. Create a local directory, for example ```$ mkdir /home/<YOUR USERNAME>/sharedir``` for sharing local files with the savageCTI container.
 4. Use ```$ docker run -v /home/<YOUR USERNAME>/sharedir:/storage -it <YOUR TAG HERE> /bin/bash``` to access a root shell in your new container. Verify successful installation from your container prompt with ```# shodan version``` and ```# greynoise version```. The Shodan scripts from this repo are pulled via ```wget``` to the container's ```/scripts``` directory.
 
 ## Notes
