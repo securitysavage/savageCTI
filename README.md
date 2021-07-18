@@ -22,6 +22,7 @@
 ## Notes
 
 You must sign up for a Shodan/Greynoise account to get an API key.
-To use external files such as IP lists with the container, place them in the local share directory you established with your ```docker run``` command.
+
+To use external files such as IP lists within the container, place them in the local share directory you established using your ```docker run``` command.
 
 Twitter: [@securitysavage](https://twitter.com/securitysavage)
