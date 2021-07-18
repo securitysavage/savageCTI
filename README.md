@@ -19,7 +19,12 @@
 3. Create a local directory, for example ```$ mkdir /home/<YOUR USERNAME>/sharedir``` for sharing files such as IP lists with savageCTI.
 4. Use ```$ docker run -v /home/<YOUR USERNAME>/sharedir:/storage -it <YOUR TAG HERE> /bin/bash``` to access a root shell in your new container. Verify successful installation from your container prompt with ```# shodan version``` and ```# greynoise version```. The Shodan scripts from this repo are pulled via ```wget``` to the container's ```/scripts``` directory.
 
-Usage: ```[root@container:/storage]# python3 /scripts/shodan-ip-download.py foo.txt bar.json.gz``` with ```foo.txt``` being an IP list from your local machine, such as a SIEM export.
+Usage: 
+```root@container:/storage# python3 /scripts/shodan-ip-download.py foo.txt bar.json.gz```, with ```foo.txt``` being an IP list from your local machine, such as a SIEM export.
+
+```gunzip bar.json.gz```
+
+```root@container:/storage# python3 /scripts/shodan-parse.py -o foobar.txt -v bar.json```, to produce list ```foobar.txt``` of format ```IP:PORT:ORG:HOSTNAMES``` (see output example file).
 
 ## Notes
 
