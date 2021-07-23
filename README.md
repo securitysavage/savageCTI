@@ -23,4 +23,8 @@
 
 You must sign up for a Shodan/Greynoise account to get an API key.
 
+CentOS Dockerfile included for variety.
+
+Tested on Ubuntu 18.04, CentOS 8, MacOS Catalina, Windows 10.
+
 Twitter: [@securitysavage](https://twitter.com/securitysavage)
