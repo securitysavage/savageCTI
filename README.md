@@ -1,16 +1,15 @@
 ## Prerequisites
 
 1. Linux fundamentals
-1. Python 3+
-2. ```gunzip```
-3. The Shodan CLI module, initialized with your API key. Install guide [here](https://help.shodan.io/command-line-interface/0-installation) and CLI documentation [here](https://cli.shodan.io/).
-4. The Greynoise CLI module, initialized with your API key. Install guide [here](https://developer.greynoise.io/docs/libraries-sample-code) and CLI documentation [here](https://greynoise.readthedocs.io/en/latest/).
+2. Docker
+3. Python 3+
+4. ```gunzip```
 
 ## Instructions for Shodan Scripts
 
-1. Run ```$ python3 shodan-ip-download.py /path/to/foo.txt bar.json.gz``` and wait for the API to process the list.
-3. Run ```$ gunzip bar.json.gz``` to decompress the generated archive.
-4. Run ```$ python3 shodan-parse.py -o foobar.txt -v bar.json``` to produce list ```foobar.txt``` of format ```IP:PORT:ORG:HOSTNAMES``` (see output example file).
+1. Run ```$ python3 shodan-ip-download.py /path/to/foo.txt bar.json.gz``` and wait for the Shodan to process the list.
+2. Run ```$ gunzip bar.json.gz``` to decompress the generated archive.
+3. Run ```$ python3 shodan-parse.py -o foobar.txt -v bar.json``` to produce list ```foobar.txt``` of format ```IP:PORT:ORG:HOSTNAMES``` (see output example file).
 
 ## Docker Setup (optional)
 
@@ -21,7 +20,13 @@
 
 ## Notes
 
-You must sign up for a Shodan/Greynoise account to get an API key.
+Shodan CLI module install guide [here](https://help.shodan.io/command-line-interface/0-installation) and CLI documentation [here](https://cli.shodan.io/).
+
+Greynoise CLI module install guide [here](https://developer.greynoise.io/docs/libraries-sample-code) and CLI documentation [here](https://greynoise.readthedocs.io/en/latest/).
+
+EmailRep CLI module install guide [here](https://pypi.org/project/emailrep/) and CLI documentation [here](https://docs.emailrep.io/).
+
+You must sign up for a Shodan/Greynoise account to get an API key. EmailRep's key must be requested with a "known safe" email address.
 
 CentOS Dockerfile included for variety.
 
