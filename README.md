@@ -2,8 +2,6 @@
 
 1. Linux fundamentals
 2. Docker
-3. Python 3+
-4. ```gunzip```
 
 ## Instructions for Shodan Scripts
 
