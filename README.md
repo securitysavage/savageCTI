@@ -26,8 +26,6 @@ EmailRep CLI module install guide [here](https://pypi.org/project/emailrep/), CL
 
 You must sign up for a Shodan/Greynoise account to get an API key. EmailRep's key must be requested with a "known safe" email address.
 
-CentOS Dockerfile included for variety.
-
-Tested on Ubuntu 18.04, CentOS 8, MacOS Catalina, Windows 10.
+Tested on Ubuntu 18.04, CentOS 8, MacOS Monterey, Windows 10.
 
 Twitter: [@securitysavage](https://twitter.com/securitysavage)
