@@ -22,10 +22,6 @@ Shodan CLI module install guide [here](https://help.shodan.io/command-line-inter
 
 Greynoise CLI module install guide [here](https://developer.greynoise.io/docs/libraries-sample-code), CLI docs [here](https://greynoise.readthedocs.io/en/latest/).
 
-EmailRep CLI module install guide [here](https://pypi.org/project/emailrep/), CLI docs [here](https://docs.emailrep.io/).
-
-You must sign up for a Shodan/Greynoise account to get an API key. EmailRep's key must be requested with a "known safe" email address.
+You must sign up for a Shodan/Greynoise account to get an API key.
 
 Tested on Ubuntu 18.04, CentOS 8, MacOS Monterey, Windows 10.
-
-Twitter: [@securitysavage](https://twitter.com/securitysavage)
