@@ -4,8 +4,6 @@
 # with other tools. To run, specify path to a JSON API export.
 #
 # Modified from https://github.com/jpiechowka/shodan-parser/blob/master/shodan-parser.py
-#
-# Modified by @securitysavage
 
 import ipaddress
 import json
