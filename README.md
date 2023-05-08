@@ -24,4 +24,4 @@ Greynoise CLI module install guide [here](https://developer.greynoise.io/docs/li
 
 You must sign up for a Shodan/Greynoise account to get an API key.
 
-Tested on Ubuntu 18.04, CentOS 8, MacOS Monterey, Windows 10.
+Tested on Ubuntu 18.04, MacOS Ventura, Windows 10.
