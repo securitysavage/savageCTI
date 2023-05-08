@@ -1,5 +1,5 @@
 #!/usr/bin/env/python3
-
+#
 # This script will parse JSON data exported from Shodan and create an IP:PORT:ORG:HOSTNAME formatted list to be used
 # with other tools. To run, specify path to a JSON API export.
 #
