@@ -1,12 +1,10 @@
 #!/usr/bin/env/python3
-
-# Taken from https://gist.github.com/jivoi/3905537780a38d53c8e6add152d0d61a, a fork of 
+#
+# Adapted from https://gist.github.com/jivoi/3905537780a38d53c8e6add152d0d61a, a fork of 
 #
 # https://gist.github.com/achillean/f4bce0971b132f35d104a728d8d797f1
 #
 # This script uses the Shodan API to generate json data from a list of IPs.
-#
-# Copypastad by @securitysavage
 
 from shodan import Shodan
 from shodan.helpers import open_file, write_banner
