@@ -1,4 +1,4 @@
-#!/usr/bin/env/python3
+#!/usr/bin/env python3
 #
 # Adapted from https://gist.github.com/jivoi/3905537780a38d53c8e6add152d0d61a, a fork of 
 #
